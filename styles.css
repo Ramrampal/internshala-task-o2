@@ -1,0 +1,25 @@
+body {
+    background-color: #ffffff; /* Default light mode background color */
+    color: #000000; /* Default light mode text color */
+  }
+  
+  .dark-mode {
+    background-color: #1e1e1e; /* Dark mode background color */
+    color: #ffffff; /* Dark mode text color */
+  }
+  .signup-btn,
+  .signin-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-btn:hover,
+  .signin-btn:hover {
+    background-color: #0056b3;
+  }
+    
